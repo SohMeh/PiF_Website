@@ -731,25 +731,26 @@
         }
     </style>
     <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17609898822"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-17609898822');
-        </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17609898822"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17609898822');
+    </script>
+
+    <!-- Event snippet for Page view conversion page -->
+    <!-- NOTE: This fires a conversion on every page load of this file.
+         If you only want conversions on a specific “thank you” page or action,
+         move this snippet to that page only. -->
+    <script>
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17609898822/PHTCCNS7rKcbEMb2hs1B',
+          'value': 1.0,
+          'currency': 'USD'
+      });
+    </script>
     
-        <!-- Event snippet for Page view conversion page -->
-        <!-- NOTE: This fires a conversion on every page load of this file.
-             If you only want conversions on a specific “thank you” page or action,
-             move this snippet to that page only. -->
-        <script>
-          gtag('event', 'conversion', {
-              'send_to': 'AW-17609898822/PHTCCNS7rKcbEMb2hs1B',
-              'value': 1.0,
-              'currency': 'USD'
-          });
-        </script>
 </head>
 <body>
     <!-- Header and Navigation -->
